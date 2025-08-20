@@ -21,3 +21,16 @@
     font-weight: 600;
     color: #1a1a1a;
 }
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    color: #088178;
+}
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
